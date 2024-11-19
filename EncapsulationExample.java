@@ -1,4 +1,4 @@
-public class Encapsulation{
+public class EncapsulationExample {
     public static void main(String[] args){
 
         
