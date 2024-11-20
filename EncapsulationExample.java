@@ -7,7 +7,7 @@ public class EncapsulationExample {
         Student s1 = new Student();
 
         s1.setId(3746);
-        s1.setName("Richelle");
+        s1.setName("Ma. Erica");
         System.out.println("Student ID: " + s1.getId());
         System.out.println("Student Name: " + s1.getName());
         System.out.println();
