@@ -1,4 +1,5 @@
 public class EncapsulationExample {
+    
     public static void main(String[] args){
 
         
@@ -26,69 +27,5 @@ public class EncapsulationExample {
         System.out.println("Book Author: " + b1.getAuthor());
         System.out.println("Book Price: " + b1.getPrice());
         System.out.println();
-    }
-}
-
-
-class Student{
-    private int Student_id;
-    private String Name;
-
-    public void setId(int s_id){
-        this.Student_id = s_id;
-    }
-
-    public void setName(String s_name){
-        this.Name = s_name;
-    }
-
-    public String getName(){
-        return this.Name;
-    }
-
-    public int getId(){
-        return this.Student_id;
-    }
-
-}
-
-class Book{
-    private int _book_number;
-    private String _title;
-    private String _author;
-    private Double _price;
-
-    public void setBookNumber(int bookNum){
-        this._book_number = bookNum;
-    }
-
-    public void setTitle(String Title){
-        this._title = Title;
-    }
-
-
-    public void setAuthor(String Author){
-        this._author = Author;
-    }
-
-    public void setPrice(Double Price){
-        this._price = Price;
-    }
-
-    public int getBookNumber(){
-        return this._book_number;
-    }
-
-    public String getTitle(){
-        return this._title;
-    }
-
-
-    public String getAuthor(){
-        return this._author;
-    }
-
-    public Double getPrice(){
-        return this._price;
     }
 }
